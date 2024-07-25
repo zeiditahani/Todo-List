@@ -26,6 +26,7 @@ const TodoApp = () => {
   return (
     <div className="todo-app">
       <h1>Todo List</h1>
+      <h3>aprés modification</h3>
       <AddTaskForm addTask={addTask} />
       <TaskList tasks={tasks} toggleTaskCompletion={toggleTaskCompletion} removeTask={removeTask} />
     </div>
